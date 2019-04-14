@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './Header';
+import { Content } from './Content';
 
 class App extends Component {
   constructor(props) {
@@ -16,6 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header onBackButtonClicked={this.onBackButtonClicked}></Header>
+        <Content ></Content>
       </div>
     );
   }

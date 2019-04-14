@@ -15,7 +15,7 @@
 	border-radius: 4px;
 	font-weight: bold;
 	border: 1px solid gray;
-	padding: 5px;
+	padding: 5px 10px;
 }
 .logo {
 	padding-top: 7px;
@@ -23,4 +23,9 @@
 
 .logo>img{
 	max-width:100%;
+}
+
+.angleLeft{
+	font-size: 20px;
+	margin-right: 3px;
 }

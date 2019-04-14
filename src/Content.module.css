@@ -1,0 +1,67 @@
+
+
+.contentWrapper{
+	padding: 20px;
+	background-image: url("./images/background.png")
+}
+
+.heroBanner> img{
+	max-width: 100%;
+}
+
+.location{
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+	color: white;
+}
+
+.location h3{
+	margin:0;
+}
+
+.location a{
+	color: inherit;
+}
+
+.location address{
+	color: #a1bed9;
+}
+
+.menu ul{
+	display:flex;
+	flex-direction: column;
+	color: black;
+	list-style-type: none;
+	padding:0;
+}
+
+.menu li:first-child{
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-top: none;
+}
+.menu li:last-child{
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom: none;
+}
+.menu li{
+	display:flex;
+	justify-content: space-between;
+	padding: 10px;
+	font-weight: bold;
+	background: linear-gradient(to top, #c1cedb, #e8ebee);
+	border-bottom: 1px solid #eeeeee;
+	border-top: 1px solid #cbcbcb;
+}
+
+.menu li span{
+	/* this helps detect clicks only on li level */
+	pointer-events: none;
+}
+
+.angleRight{
+	font-size: 30px;
+	line-height: 15px;
+}
