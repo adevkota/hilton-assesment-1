@@ -1,0 +1,26 @@
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background: #1c1c1c;
+	color: white;
+	height: 35px;
+}
+
+.button{
+	background: linear-gradient(to top, #0d0d0d, #2e2e2e 50%, #2e2e2e 90%, #0d0d0d);
+	color: white;
+	border-radius: 4px;
+	font-weight: bold;
+	border: 1px solid gray;
+	padding: 5px;
+}
+.logo {
+	padding-top: 7px;
+}
+
+.logo>img{
+	max-width:100%;
+}
