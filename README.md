@@ -1,3 +1,18 @@
+## Steps to run locally:
+
+1) install the dependencies : npm install
+2) run the start script: npm run start
+
+( developed using node v10.14.2/npm v 6.4.1)
+
+## Assumptions:
+1) Built for mobile only because the screenshot was mobile only. Will work for bigger screens but with the mobile layout.
+2) Used components as functions where possible as supported by the latest react framework
+3) I assumed that the gray space below the thrid menu item ("Amenities") was also another menu item and not empty space. Since I was not sure what the option would have been, I only built 3 for the task.
+4) I also assumed that the menu options would be symmetrical in design, i.e. the last option would also have rounded bottom edges just like the top one.
+5) The background color of the logo provided was not the same as the background color of the header. So I cropped out the logo from the test image provided.
+6) Picked the colors using paint-3D, so I get as close to the desing as possible.
+7) Tests not added based on the description that this assesment is to gauge design detail, semantic html and CSS/responsive design.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
